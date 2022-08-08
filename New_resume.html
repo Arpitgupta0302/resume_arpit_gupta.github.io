@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>:root{
+		--background: #c3c0ba;
+		--white: #fff;
+		--one: #6a26c3;
+		--two: #743578;
+		--black: #54585d;
+		--process: #a5a5a5;
+	}
+	*{margin:0px; padding:0px; box-sizing: border-box; font-family: system-ui;}
+	body{background: var(--background);}
+	.col-div-3{width: 30%; float: left;}
+	.col-div-7{width: 75%; float: left;}
+	.col-div-4{width: 35%; float: left;}
+	.col-div-8{width: 65%; float: left;}
+	.col-div-6{width: 50%; float: left; position: relative;}
+	.clearfix{clear: both;}
+	.resume-main{width: 850px; height: 1200px; 
+		background: linear-gradient(var(--one), var(--two));
+		margin: 50px auto;
+		box-shadow:5px 5px 5px 5px #54585d33;
+	}
+	.left-box{width: 35%; float: left; height: 1500px;}
+	.right-box{width: 65%; float: left; background-color: var(--white); height: 1100px;
+		margin: 50px 0px; border-radius: 50px 0px 0px 50px; padding:30px 50px;
+		box-shadow: -7px 2px 15px 2px #54585d52;}
+	.profile{width: 200px; height: 200px; border: 0px solid var(--white); 
+		padding: 7px; border-radius: 50%; margin: 20px auto;}
+	.profile img{width: 100%; border-radius: 50%;}
+	.content-box{    padding: 0px 40px 0px 45px;}
+	.content-box h2{text-transform: uppercase;font-weight: 500;color: var(--white); 
+		letter-spacing: 1px; font-size: 20px;}
+	.hr1{border: none; height: 1px; background: var(--white); margin-top: 3px;}
+	.p1{font-size: 11px;color: var(--white);letter-spacing: 1px;padding-top: 12px;}
+	#progress {background: var(--process);border-radius: 13px;height: 8px;width: 100%;}
+	#progress:after {
+		content: '';
+		display: block;
+		background: var(--white);
+		width: 85%;
+		height: 100%;
+		border-radius: 9px;
+	}
+	#progress1 {background: var(--process);border-radius: 13px;height: 8px;width: 100%;}
+	#progress1:after {
+		content: '';
+		display: block;
+		background: var(--white);
+		width: 96%;
+		height: 100%;
+		border-radius: 9px;
+	}
+	.content-box h3{font-size: 13px;text-transform: uppercase;letter-spacing: 1px;padding-top: 10px;
+		color: white;font-weight: 500;
+	}
+	.p2{font-size: 13px; margin-bottom: 5px; margin-top: 5px; color: var(--white);}
+	.circle{color:var(--white); font-size: 14px!important; margin-top: 7px;}
+	.circle1{color:var(--process); font-size: 14px!important; margin-top: 7px;}
+	.in{background:var(--white);color: var(--one);padding: 8px;border-radius: 20px; font-size: 14px!important;}
+	.inp{color: var(--white); font-size: 10px;}
+	.col3{text-align: center;}
+	h1{font-size: 50px; text-transform: uppercase; color: var(--black); line-height: 50px;}
+	h1 span{color: var(--one);}
+	h5{font-size: 10px; text-transform: uppercase; color: var(--black); line-height: 20px;}
+	h5 span{color: var(--one);}
+	.p3{letter-spacing: 4px;color: #54585d; font-weight: 500;}
+	.heading{text-transform: uppercase;font-weight: 500;color: var(--one); 
+		letter-spacing: 1px; font-size: 20px;}
+	.hr2{border: none; height: 1px; background: var(--black); margin-top: 3px;}
+	.p5{font-weight: 700;color: var(--black);}
+	.span1{font-size: 12px;color: var(--black);}</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="resume-main">
+	<div class="left-box">
+		<br><br>
+		<div class="profile">
+			<img src="IMG-20220226-WA0000.jpg" width="300" height="200" margin="-50" >
+
+		</div>
+		<div class="content-box">
+			<h2>Profile Info</h2>
+			<hr class="hr1">
+			<p class="p1">To join a renowned organisation to enhance my skill and knowledge to work for the growth of the organisation. I would like to handle challenging assignment and give them a better shape through innovative ideas.</p>
+
+		<h3>Language:</h3>
+		<p class="p2">English</p>
+		<div id="progress"></div>
+		<p class="p2">Hindi</p>
+		<div id="progress1"></div>
+
+		<br><br>
+		<h2>My Skills</h2>
+		<hr class="hr1">
+		<br>
+		<div class="col-div-6"><p class="p2">Python</p></div>
+		<div class="col-div-6">
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle1"></i>
+		</div>
+			<div class="clearfix"></div>
+		<div class="col-div-6"><p class="p2">HTML</p></div>
+		<div class="col-div-6">
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle1"></i>
+		</div>
+			<div class="clearfix"></div>
+		<div class="col-div-6"><p class="p2">CSS</p></div>
+		<div class="col-div-6">
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle1"></i>
+			<i class="fa fa-circle circle1"></i>
+		</div>
+			<div class="clearfix"></div>
+		<div class="col-div-6"><p class="p2">MS World</p></div>
+		<div class="col-div-6">
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle"></i>
+			<i class="fa fa-circle circle1"></i>
+		</div>
+
+			<div class="clearfix"></div>
+			<br>
+			<h2>Other Activities</h2>
+			<hr class="hr1">
+			<br>
+			<div class="col-div-6">
+				<span class="inp"><img src="https://pic.onlinewebfonts.com/svg/img_329118.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Participated Activity Svg Png Icon Free Download (#329118) -  OnlineWebFonts.COM" data-noaft="1" style="width: 15px; height: 15px; margin: -5px;"> <b>&nbsp; Participated In&nbsp; &nbsp;&nbsp;Srijan  2020</b> </span>
+			</div>
+			<div class="col-div-6">
+				<span class="inp">&nbsp; &nbsp;<img src="https://pic.onlinewebfonts.com/svg/img_329118.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Participated Activity Svg Png Icon Free Download (#329118) -  OnlineWebFonts.COM" data-noaft="1" style="width: 15px; height: 15px; margin: -5px;"> <b>&nbsp; Participated In &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Smart India &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hackathon</b> </span>
+			</div>
+			<div><br></div>
+			<div class="col-div-6">
+				<span class="inp"><img src="https://pic.onlinewebfonts.com/svg/img_329118.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Participated Activity Svg Png Icon Free Download (#329118) -  OnlineWebFonts.COM" data-noaft="1" style="width: 15px; height: 15px; margin: -5px;"><b>&nbsp;&nbsp; Event Management</b> </span><br>
+			</div>
+			<div class="col-div-6">
+				<span class="inp">&nbsp; &nbsp;<img src="https://pic.onlinewebfonts.com/svg/img_329118.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Participated Activity Svg Png Icon Free Download (#329118) -  OnlineWebFonts.COM" data-noaft="1" style="width: 15px; height: 15px; margin: -5px;"><b>&nbsp;&nbsp; Cultural Fest</b> </span>
+			</div>
+			<div class="clearfix"></div>
+			<br>
+			<h2>Hobbies</h2>
+			<hr class="hr1">
+			<br>
+			<div class="col-div-3 col3">
+				<span class="inp"><img src="https://cdn-icons-png.flaticon.com/512/10/10552.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Cricket player with bat - Free sports icons" data-noaft="1" style="width:30; height: 30px; margin: 5px;"> <br><b> Playing Cricket</b></span>
+			</div>
+			<div class="col-div-3 col3">
+				<span class="inp"><img src="https://icon-library.com/images/technology-icon-png/technology-icon-png-11.jpg" style="width: 33px; height: 40px; margin: 5x;"><br><b>Explore To New Technologies</b></span>
+			</div>
+			<div class="col-div-3 col3">
+				<span class="inp"><img src="https://www.freeiconspng.com/thumbs/travel-icon/travel-guide-icon-map-ticket-travel-icon-17.png" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="Travel Icons - FreeIconsPNG" data-noaft="1" style="width: 35px; height: 35px; margin: 3px;"><br><b> Travelling</b></span>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="right-box">
+		<h1>
+			Arpit<br>
+			<span>Gupta</span>
+		</h1>
+		<h5><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 18" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="20" height="20" focusable="false">
+			<path d="M2 4v13a3 3 0 003 3h14a3 3 0 003-3V4zm18 2v1.47l-8 5.33-8-5.33V6zm-1 12H5a1 1 0 01-1-1V8.67L12 14l8-5.33V17a1 1 0 01-1 1z"></path>
+		  </svg> arpitguptav0302 <br> &nbsp; <img src="https://media.istockphoto.com/vectors/phone-with-waves-symbol-icon-black-simple-isolated-vector-stock-vector-id1180028723?k=20&amp;m=1180028723&amp;s=612x612&amp;w=0&amp;h=bV2Nc4kBDHq_WpluFl9W4P6OYMxvBsjiewyJ8KomfFA=" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb KAlRDb" alt="668,244 Phone Icon Stock Photos, Pictures &amp; Royalty-Free Images - iStock" data-noaft="1" style="width: 20px; height: 20px; margin: -5px;">  &nbsp 7067783921 <br> &nbsp;
+		  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSGsQS9eUEPmKqJItMYJz7OTlA2k7nAyHn5Q&amp;usqp=CAU" jsaction="load:XAeZkd;" jsname="HiaYvf" class="n3VNCb" alt="Address Icon Png Transparent Images – Free PNG Images Vector, PSD, Clipart,  Templates" data-noaft="1" style="width: 20; height: 20px; margin: -5px;"> &nbsp; 1127/E,Durga Colony, Sanjeevani Nagar ,Garha,Jabalpur(M.P)</h5>
+		
+
+		
+
+		<br>	
+		<h2 class="heading">My Education</h2>
+		<hr class="hr2">
+		<br>
+		<div class="col-div-4">
+			<p class="p5">2018-2022</p>
+			<span class="span1">Institute</span>
+		</div>
+		<div class="col-div-8">
+			<p class="p5">Btech</p>
+			<span class="span1">Global Nature Care Sangathan Group Of Institutions <br>8.42 CGPA</span>
+		</div>
+		<div class="clearfix"></div>
+		
+		<div class="col-div-4">
+			<p class="p5">2017-2018</p>
+			<span class="span1">Institute</span>
+		</div>
+		<div class="col-div-8">
+			<p class="p5">12TH</p>
+			<span class="span1">Wisdom Public School <br>65.2%</span>
+		</div>
+		<div class="clearfix"></div>
+			
+		
+		<div class="col-div-4">
+			<p class="p5">2015-2016</p>
+			<span class="span1">Institute</span>
+		</div>
+		<div class="col-div-8">
+			<p class="p5">10TH</p>
+			<span class="span1">Girija Memorial High School <br>59.5%</span>
+		</div>
+		<div class="clearfix"></div>
+		
+		<h2 class="heading">Projects</h2>
+		<hr class="hr2">
+		<br>
+		<div class="col-div-4">
+			<p class="p5">Major</p>
+			<span class="span1"></span>
+		</div>
+		<div class="col-div-8">
+			<p class="p5">Smart Waste And Irrigation Management Model</p>
+			<span class="span1">It is a system which gets the waste produced during farming and converts them into briquettes which will replace coal.Also if there is an excess of water supply or shortage of water supply in field , sensor will detect it , and we can get water supply there. As we are managing things with electronics we are calling it as SWIMS.</span>
+		</div>
+		<div class="clearfix"></div>
+		<br>
+		<div class="col-div-4">
+			<p class="p5">Minor</p>
+			<span class="span1"></span>
+		</div>
+		<div class="col-div-8">
+			<p class="p5">Arudino Distansometer Using Balancing Bot</p>
+			<span class="span1">Distancometer using balancing bot is a emmbeded device. In whice we have use hardware as well as software. It can measure a distance from one point to the Other point or according to the user. It moves and count distance between two places or objects.</span>
+		</div>
+		<div class="clearfix"></div>
+		<br>
+		<div class="col-div-4">
+			<p class="p5">Minor</p>
+			<span class="span1"></span>
+		</div>
+		<div class="col-div-8">
+			<p class="p5">Waste Management Model</p>
+			<span class="span1">We have created a machine that will get input through farming waste and compress them turning it into briquettes and make them as energy source and which from our prediction could replace coal in future.</span>
+		</div>
+		<div class="clearfix"></div>
+		<br>
+		
+	</div>
+	
+	
+
+</div>
+
+</body>
+</html>
